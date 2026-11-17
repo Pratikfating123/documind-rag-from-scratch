@@ -19,6 +19,23 @@
 </p>
 
 ---
+## 📸 Application Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Knowledge Base
+![Knowledge Base](screenshots/knowledge-base.png)
+
+### RAG Chat Interface
+![RAG Chat](screenshots/rag-chat.png)
+
+### Retrieval Explorer
+![Retrieval Explorer](screenshots/retrieval-explorer.png)
+
+### Settings
+![Settings](screenshots/settings.png)
+
 
 ## 1. Overview
 
