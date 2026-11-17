@@ -1,0 +1,15 @@
+Machine Learning Basics
+
+Definition. Machine learning (ML) is a branch of artificial intelligence in which algorithms learn patterns from data and use them to make predictions or decisions without being explicitly programmed for each case.
+
+Types of learning. In supervised learning the training data has labels, and the model learns to map inputs to the correct outputs. Examples are classification (is this email spam?) and regression (what will this house sell for?). In unsupervised learning the data has no labels and the model finds structure on its own, for example clustering customers into groups with k-means. Reinforcement learning trains an agent to take actions in an environment and receive rewards or penalties, as used in game-playing systems and robotics.
+
+Typical workflow. First collect and clean the data. Next split it into a training set, a validation set and a test set. Choose a model, train it on the training set, tune hyperparameters using the validation set, and finally measure performance on the test set that the model has never seen.
+
+Common algorithms. Linear regression predicts a number from a straight-line relationship. Logistic regression predicts class probabilities. Decision trees split data using simple questions. Random forests combine many trees to improve accuracy. Support vector machines find the boundary that best separates classes. Neural networks stack layers of connected nodes and power deep learning.
+
+Overfitting and underfitting. Overfitting happens when a model memorises the training data, including noise, and performs badly on new data. Underfitting happens when a model is too simple to capture the pattern. Remedies for overfitting include more data, regularisation, simpler models and cross-validation.
+
+Evaluation metrics. Accuracy is the share of correct predictions. Precision is the share of predicted positives that are truly positive. Recall is the share of actual positives that were found. The F1 score is the harmonic mean of precision and recall. For regression, common metrics are mean squared error and R-squared.
+
+Embeddings. An embedding turns text, images or other items into a list of numbers so that similar items are close together. Cosine similarity measures how close two embeddings are by comparing the angle between them.

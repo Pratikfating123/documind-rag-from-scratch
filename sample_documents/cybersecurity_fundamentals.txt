@@ -1,0 +1,13 @@
+Cybersecurity Fundamentals
+
+The CIA triad. Information security rests on three goals. Confidentiality means only authorised people can read data. Integrity means data is accurate and has not been altered without permission. Availability means systems and data are accessible when needed. Every security control supports at least one of these goals.
+
+Common threats. Malware is malicious software such as viruses, worms, trojans, spyware and ransomware. Ransomware encrypts a victim's files and demands payment for the key. Phishing tricks people into revealing passwords or installing malware through fake emails or websites. A denial-of-service (DoS) attack floods a service with traffic so legitimate users cannot reach it. SQL injection inserts malicious database commands through input fields. Cross-site scripting (XSS) injects scripts into web pages viewed by other users. A man-in-the-middle attack secretly intercepts communication between two parties.
+
+Defensive controls. A firewall filters network traffic using security rules. Antivirus software detects known malware. Encryption converts data into unreadable ciphertext; symmetric encryption such as AES uses one shared key, while asymmetric encryption such as RSA uses a public and private key pair. Hashing, for example SHA-256, creates a fixed-length fingerprint used to verify integrity and to store passwords safely. Multi-factor authentication (MFA) requires two or more proofs of identity, such as a password and a one-time code.
+
+Best practices. Use long unique passwords and a password manager. Apply software updates quickly because patches fix known vulnerabilities. Follow the principle of least privilege, giving users only the access they need. Back up data regularly and keep one copy offline. Train staff to recognise phishing.
+
+Incident response. A typical process has six phases: preparation, identification, containment, eradication, recovery and lessons learned. Fast containment limits damage, and documenting the incident helps prevent repeats.
+
+Security testing. Penetration testing simulates real attacks to find weaknesses before criminals do. Vulnerability scanning automatically checks systems for known flaws.

@@ -1,0 +1,15 @@
+Artificial Intelligence Fundamentals
+
+What is Artificial Intelligence? Artificial intelligence (AI) is the field of computer science that builds systems able to perform tasks that normally require human intelligence, such as understanding language, recognising images, making decisions and solving problems. The term was introduced by John McCarthy in 1956 at the Dartmouth Conference.
+
+Types of AI. Narrow AI is designed for one specific task, for example a spam filter or a voice assistant. All AI systems in use today are narrow AI. General AI, also called Artificial General Intelligence (AGI), would be able to learn and reason across any domain like a human, but it does not yet exist. Super intelligence is a hypothetical level of AI that would exceed human ability in nearly every field.
+
+Key subfields. Machine learning lets systems learn patterns from data instead of following hand-written rules. Natural language processing (NLP) focuses on understanding and generating human language. Computer vision enables machines to interpret images and video. Robotics combines AI with physical machines. Expert systems use rules written by human specialists to give advice in a narrow area such as medical diagnosis.
+
+Search and reasoning. Early AI relied on search algorithms such as breadth-first search, depth-first search and A* to explore possible solutions. Knowledge representation stores facts in a form a computer can reason about, for example ontologies and knowledge graphs.
+
+Large language models. Large language models (LLMs) are neural networks trained on huge amounts of text to predict the next word. They can write, summarise and answer questions, but they may hallucinate, which means producing fluent but incorrect statements. Retrieval-Augmented Generation (RAG) reduces hallucination by giving the model relevant documents to read before it answers.
+
+Ethics and risks. Important concerns include bias in training data, lack of transparency in how models decide, privacy of personal data, job displacement and misuse such as deepfakes. Responsible AI practice stresses fairness, accountability, transparency and human oversight.
+
+Applications. AI is used in healthcare for medical imaging, in finance for fraud detection, in transport for self-driving research, in education for personalised learning and in customer service through chatbots.

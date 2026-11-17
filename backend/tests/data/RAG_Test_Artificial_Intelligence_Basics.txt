@@ -1,0 +1,24 @@
+RAG Test Document: Artificial Intelligence Basics
+
+Suggested Test Questions
+
+- What is Retrieval-Augmented Generation?
+- Explain the relationship between AI, ML, and DL.
+- What is the difference between narrow AI and general AI?
+- Why do large language models hallucinate?
+
+Testing Note
+
+This document is used to test retrieval-augmented generation systems. Ask the questions above and verify that the retrieved chunks come from the matching explanatory section of the document.What Is Artificial Intelligence?
+
+Artificial intelligence is the field of computer science that builds systems able to perform tasks that normally require human intelligence, such as understanding language, recognising images and making decisions. Narrow AI is designed for one specific task, while general AI would be able to learn and reason across any domain like a human.
+
+Relationship between AI, ML and Deep Learning
+
+Artificial intelligence is the broad field. Machine learning is a subset of AI in which systems learn patterns from data instead of following hand-written rules. Deep learning is a subset of machine learning that uses neural networks with many layers. In short, deep learning is part of machine learning, and machine learning is part of artificial intelligence.Large Language Models and Hallucination
+
+Large language models are neural networks trained on huge amounts of text to predict the next word. They can write, summarise and answer questions fluently. However, a model only knows what was present in its training data, and that data has a cutoff date and never contained a company's private documents. When a model lacks the facts it still produces fluent text, which can be wrong. This behaviour is called hallucination. Hallucinations are dangerous in areas such as medicine, law and finance, because the wrong answer sounds just as confident as a correct one. Techniques such as careful prompting, fine-tuning and human review reduce the risk but do not remove it completely.
+
+Retrieval-Augmented Generation (RAG)
+
+Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers. It works in four steps. First, documents are split into chunks and converted into embeddings stored in a vector index. Second, the user's question is embedded and the most similar chunks are retrieved. Third, the retrieved chunks are added to the prompt as context. Fourth, the model generates an answer grounded in that context. RAG is useful because it reduces hallucination, lets the model use private or up-to-date information without retraining, and allows answers to cite their sources.

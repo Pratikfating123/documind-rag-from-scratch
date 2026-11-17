@@ -1,0 +1,19 @@
+RAG Test Document: Cybersecurity Fundamentals
+
+Suggested Test Questions
+
+- What are the three components of the CIA triad?
+- What is phishing and how can it be prevented?
+- What is the difference between symmetric and asymmetric encryption?
+
+Testing Note
+
+This document is used to test document question answering. Verify that answers about security come from the explanatory sections and not from this list of suggested questions.Common Threats
+
+Malware is malicious software such as viruses, worms, trojans, spyware and ransomware. Ransomware encrypts a victim's files and demands payment for the key. Phishing tricks people into revealing passwords or installing malware through fake emails or websites. A denial-of-service attack floods a service with traffic so that legitimate users cannot reach it. SQL injection inserts malicious database commands through input fields, and cross-site scripting injects scripts into web pages viewed by other users. A man-in-the-middle attack secretly intercepts communication between two parties. Organisations defend against these threats with layered controls, regular updates and staff training, because a single weak point is often enough for an attacker.
+
+The CIA Triad
+
+Information security rests on three components known as the CIA triad. Confidentiality means that only authorised people can read data. Integrity means that data stays accurate and is not altered without permission. Availability means that systems and data are accessible when they are needed. Every security control supports at least one of these three goals.Defensive Controls
+
+A firewall filters network traffic using security rules. Encryption converts data into unreadable ciphertext: symmetric encryption uses one shared key, while asymmetric encryption uses a public and private key pair. Multi-factor authentication requires two or more proofs of identity, such as a password and a one-time code.

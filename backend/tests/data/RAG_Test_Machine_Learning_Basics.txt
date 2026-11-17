@@ -1,0 +1,25 @@
+RAG Test Document: Machine Learning Basics
+
+Suggested Test Questions
+
+- How does reinforcement learning work?
+- What is the difference between precision and recall?
+- Explain the relationship between AI, ML, and DL.
+- How does retrieval-augmented generation use embeddings?
+- What is overfitting?
+
+Testing Note
+
+This document is used to test retrieval in a RAG system. The retrieved chunk for each question should be the explanatory section, not this list of questions.Types of Machine Learning
+
+In supervised learning the training data has labels, and the model learns to map inputs to the correct outputs, for example classifying emails as spam. In unsupervised learning the data has no labels and the model finds structure on its own, for example by clustering customers into groups.
+
+Reinforcement Learning
+
+Reinforcement learning trains an agent to make decisions by interacting with an environment. At each step the agent observes the state, chooses an action and receives a reward or a penalty. Over many episodes the agent learns a policy that maximises the total reward it collects. It is used in game-playing systems and robotics.Evaluation Metrics
+
+Accuracy is the share of correct predictions. Precision is the share of predicted positives that are truly positive, so it measures how trustworthy the positive predictions are. Recall is the share of actual positives that the model found, so it measures how complete the results are. The difference is that precision penalises false alarms while recall penalises missed cases. The F1 score is the harmonic mean of precision and recall.
+
+Embeddings and Similarity
+
+An embedding turns text into a list of numbers so that similar meanings are close together. Cosine similarity measures how close two embeddings are by comparing the angle between them.
